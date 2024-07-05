@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>App Web Final Project</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="facilities.html">Facilities</a>
+        <a href="classes.html">Classes</a>
+        <a href="teachers.html">Teachers</a>         
+        <input type="text" placeholder="Search..">
+    </div>
+      
+    <div class="header1"><h1>Classes</h1>
+    </div>
+    <div class="header-classes">
+        <h1>School Classes</h1>
+        <p>If your child is around 5 years of age, you are likely getting ready to start them in kindergarten. 
+        Kindergarten is often a child's first introduction to shcool.We help new learners transition into the scholastic world of ABSs and 123s.
+        Teachers, parents or tutors can choose from a vast collection of stimulating lesson plans, helpful woksheets, crowd-pleasing games, 
+        printable wokbooks and other capticating academic tools created by expert teachers.</p>
+    </div>
+    <div class="classes">
+        <div class="responsive">
+            <div class="gallery">
+            <a href="img/20.jpg">
+                <img src="img/20.jpg" >
+            </a>
+            <div class="desc">
+                <div class="classes-info">
+                    <h1 id="header2">Color Management</h1>
+                </div>
+                <table border="1">
+                    <tr>
+                        <th>Age</th>
+                        <th>Time</th>
+                        <th>Capacity</th>
+                    </tr>
+                    <tr>
+                        <td>3 - 5</td>
+                        <td>9 - 10</td>
+                        <td>25 Kids</td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+        </div>
+        <div class="responsive">
+            <div class="gallery">
+            <a href="img/21.jpg">
+                <img src="img/21.jpg" alt="Forest">
+            </a>
+            <div class="desc">
+                <div class="classes-info">
+                    <h1 id="header2">Art and Drawing</h1>
+                </div>
+                <table border="1">
+                    <tr>
+                        <th>Age</th>
+                        <th>Time</th>
+                        <th>Capacity</th>
+                    </tr>
+                    <tr>
+                        <td>3 - 5</td>
+                        <td>9 - 10</td>
+                        <td>25 Kids</td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+        </div>
+        
+        <div class="responsive">
+            <div class="gallery">
+            <a href="img/22.jpg">
+                <img src="img/22.jpg">
+            </a>
+            <div class="desc">
+                <div class="classes-info">
+                    <h1 id="header2">Athletic</h1>
+                </div>
+                <table border="1">
+                    <tr>
+                        <th>Age</th>
+                        <th>Time</th>
+                        <th>Capacity</th>
+                    </tr>
+                    <tr>
+                        <td>3 - 5</td>
+                        <td>9 - 10</td>
+                        <td>25 Kids</td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+        </div>
+      
+        <div class="responsive">
+            <div class="gallery">
+            <a href="img/23.jpg">
+                <img src="img/23.jpg" >
+            </a>
+            <div class="desc">
+                <div class="classes-info">
+                    <h1 id="header2">Language/Speaking</h1>
+                </div>
+                <table border="1">
+                    <tr>
+                        <th>Age</th>
+                        <th>Time</th>
+                        <th>Capacity</th>
+                    </tr>
+                    <tr>
+                        <td>3 - 5</td>
+                        <td>9 - 10</td>
+                        <td>25 Kids</td>
+                    </tr>
+                </table>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="appointment">
+        <img src="img/19.jpg" alt="">
+        <div class="form">
+            <h1 id="app">Make an Appointment</h1>
+            <form>
+                <label for="gname" style="font-size: 1.3em; font-family: cursive;">Guardian Name: </label>
+                <input type="text" id="gname" name="gname">
+
+                <label for="gmail" style="font-size: 1.3em; font-family: cursive;">Guardian Mail: </label>
+                <input type="email" name="gmail" id="gmail"><br>
+
+                <label for="kidname" style="font-size: 1.3em; font-family: cursive;">Kid's Name: </label>
+                <input type="text" name="kidname" id="kidname">
+
+                <label for="kage" style="font-size: 1.3em; font-family: cursive;">Kid's Age: </label>
+                <input type="number" name="kage" id="kage" min="3" max="6"><br>
+
+                <label for="subject" style="font-size: 1.3em; font-family: cursive;"> Message: </label>
+                <textarea name="subject" id="subject" style="height: 100px;"></textarea>
+
+                <div class="buttons" >
+                    <input type="submit" value="Submit" style="font-size: 1.3em; font-family: cursive;">
+                </div>
+            </form>
+        </div>
+    </div>
+      
+
+    <footer>
+        <div class="footercontainer">
+            <div class="socialicons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footernav">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Facilities</a></li>
+                    <li><a href="">Classes</a></li>
+                    <li><a href="">Teachers</a></li>
+                </ul>
+            </div>
+            <div class="footerbottom">
+                <p>Created By <span class="designer">Zahra Ahmadi</span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
