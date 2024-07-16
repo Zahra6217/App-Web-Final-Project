@@ -164,13 +164,17 @@ footer{
     border: gray 4px solid;
     background-color:rgb(222, 238, 243);
     border-radius: 10px;
-    width: 325px;
+    width: 310px;
     margin: 2px 2px 2px 5px;
     padding: 0;
     text-align: center;
+    transition: background-color 0.5s 0s, width 0.5s 0s;
 }
 .info:hover{
-    opacity: 0.5;
+    border: 4px solid #777;
+    background-color: #2196F3;
+    width: 90%;
+    text-align: center;
 }
 .img-text1{
     display: flex;
@@ -212,7 +216,6 @@ footer{
 .classes{
     display: flex;
     width: 100%;
-    
 }
 div.gallery {
     border: 3px #555 solid;
@@ -220,10 +223,12 @@ div.gallery {
     border-radius: 15px;
     background-color:rgb(222, 238, 243);
 
-} 
+    transition: background-color 0.5s 0s, width 0.5s 0s;
+}
 div.gallery:hover {
     border: 4px solid #777;
-    opacity:0.5;
+    background-color: #2196F3;
+    width: 105%;
 }  
 div.gallery img {
     width: 100%;
@@ -251,19 +256,6 @@ div.desc {
     font-size: 1.2em;
     font-family: cursive;
 }
-  
-@media only screen and (max-width: 700px) {
-    .responsive {
-      width: 49.99999%;
-      margin: 6px 0;
-    }
-}
-  
-@media only screen and (max-width: 500px) {
-    .responsive {
-      width: 100%;
-    }
-}
 .header-classes h1{
     text-align: center;
     font-family: cursive;
@@ -278,7 +270,7 @@ div.desc {
     padding-right: 10px;
     margin: 10px;
 }
-#header2{
+.header2{
     font-family: cursive;
     font-size: 1.5em;
     color:#555;
@@ -286,7 +278,13 @@ div.desc {
 table{
     width: 280px;    
     font-family: cursive;
+    border-collapse: collapse;
 }
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}  
 #gname{
     width: 100%;
     padding: 12px;
@@ -410,6 +408,13 @@ form{
     border: 4px grey solid;
     border-radius: 28px;
     background-color:rgb(222, 238, 243);
+
+    transition: background-color 0.5s 0s, width 0.5s 0s;
+}
+.t-info:hover{
+    border: 4px solid #777;
+    background-color: #2196F3;
+    width: 50%;
 }
 .t-image img{
     width: 100%;
